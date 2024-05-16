@@ -94,11 +94,6 @@ Once the installation is complete, you can start using StuConnect:
 - **Backend**: Java, Maven, Spring Boot
 
 ### Diagrams
-- **Class Diagram**
-  ![Class Diagram](classdiagram.jpg)
-
-- **Frontend Pipeline**
-  ![Frontend Pipeline](frontend.jpg)
 
 - **Backend Pipeline**
   ![Backend Pipeline](backend.jpg)
