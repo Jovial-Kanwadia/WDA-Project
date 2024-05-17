@@ -69,7 +69,7 @@ const router = createBrowserRouter([
   {
     path: "/sign-in",
     element: <SignIn/>,
-  }
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
