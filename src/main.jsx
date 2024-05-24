@@ -15,6 +15,11 @@ import PersonalLibrary from './components/PersonalLibrary.jsx'
 import Profile from './components/Profile.jsx'
 import { SignIn } from './Auth/SignIn.jsx'
 import { SignUp } from './Auth/SignUp.jsx'
+import OtpForm from './components/OtpForm.jsx'
+import LandingPage from './components/LandingPage.jsx'
+import Contact from './components/Contact.jsx'
+import AboutUs from './components/AboutUs.jsx'
+import LandingHome from './components/LandingHome.jsx'
 
 // const router = createBrowserRouter(
 //   createRoutesFromElements(
@@ -33,11 +38,11 @@ import { SignUp } from './Auth/SignUp.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/api/",
     element: <Layout/>,
     children: [
       {
-        path: "",
+        path: "home",
         element: <Home/>
       },
       {
@@ -69,6 +74,28 @@ const router = createBrowserRouter([
   {
     path: "/sign-in",
     element: <SignIn/>,
+  },
+  {
+    path: "/otp",
+    element: <OtpForm/>,
+  },
+  {
+    path: "/",
+    element: <LandingPage/>,
+    children: [
+      {
+        path: "",
+        element: <LandingHome/>
+      },
+      {
+        path: "contact.html",
+        element: <Contact/>
+      },
+      {
+        path: "aboutus.html",
+        element: <AboutUs/>
+      },
+    ]
   },
 ])
 

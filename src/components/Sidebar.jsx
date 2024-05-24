@@ -49,7 +49,7 @@ export function Sidebar({ onDarkModeToggle }) {
             </label>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-100  dark:hover:bg-gray-700 hover:text-gray-700 dark:text-gray-700 dark:hover:text-gray-100 "
-              to="/"
+              to="/api/"
             >
               <BarChart className="h-5 w-5 " aria-hidden="true" />
               <span className="mx-2 text-sm font-medium  dark:hover:text-gray-100">
@@ -58,7 +58,7 @@ export function Sidebar({ onDarkModeToggle }) {
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-100  dark:hover:bg-gray-700 hover:text-gray-700 dark:text-gray-700 dark:hover:text-gray-100 "
-              to="/events"
+              to="/api/events"
             >
               <Wallet className="h-5 w-5" aria-hidden="true" />
               <span className="mx-2 text-sm font-medium dark:hover:text-gray-100">
@@ -67,7 +67,7 @@ export function Sidebar({ onDarkModeToggle }) {
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-100  dark:hover:bg-gray-700 hover:text-gray-700 dark:text-gray-700 dark:hover:text-gray-100 "
-              to="/forms"
+              to="/api/forms"
             >
               <Wallet className="h-5 w-5" aria-hidden="true" />
               <span className="mx-2 text-sm font-medium dark:hover:text-gray-100">
@@ -81,7 +81,7 @@ export function Sidebar({ onDarkModeToggle }) {
             </label>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-100  dark:hover:bg-gray-700 hover:text-gray-700 dark:text-gray-700 dark:hover:text-gray-100 "
-              to="/Collegelibrary"
+              to="/api/Collegelibrary"
             >
               <Newspaper className="h-5 w-5" aria-hidden="true" />
               <span className="mx-2 text-sm font-medium dark:hover:text-gray-100">
@@ -90,7 +90,7 @@ export function Sidebar({ onDarkModeToggle }) {
             </Link>
             <Link
               className="flex transform items-center rounded-lg px-3 py-2 text-gray-200 transition-colors duration-300 hover:bg-gray-100  dark:hover:bg-gray-700 hover:text-gray-700 dark:text-gray-700 dark:hover:text-gray-100 "
-              to="/personallibrary"
+              to="/api/personallibrary"
             >
               <BellRing className="h-5 w-5 " aria-hidden="true" />
               <span className="mx-2 text-sm font-medium   dark:hover:text-gray-100">
@@ -116,7 +116,7 @@ export function Sidebar({ onDarkModeToggle }) {
               </span>
             </Link>
             <div className="mt-6 flex items-center justify-between">
-              <Link to="/profile" className="flex items-center gap-x-2">
+              <Link to="/api/profile" className="flex items-center gap-x-2">
                 <img
                   className="h-7 w-7 rounded-full object-cover"
                   src="https://m.media-amazon.com/images/M/MV5BZjliMjIyMDktNzI0OC00ZTMzLWIyODAtMzc2MzdiZGM0ZTc0XkEyXkFqcGdeQXVyMTI2Nzk2MjQ1._V1_.jpg"
